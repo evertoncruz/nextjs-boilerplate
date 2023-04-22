@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
 type Props = {
-  title: string;
+  title: string
 }
 
-export default function Home({title = "Next App Boilerplate"} : Props) {
+export default function Home({ title = 'Next App Boilerplate' }: Props) {
   return (
     <>
       <Head>
