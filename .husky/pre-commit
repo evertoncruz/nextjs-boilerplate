@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Enable colors in Powershell (has scrolling issue?)
+# TODO necessary to resolve result lint looping on Powershell
+export FORCE_COLOR=1
+
+npx --no-install lint-staged
+# yarn lint-staged
