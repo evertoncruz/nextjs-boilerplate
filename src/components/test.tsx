@@ -7,7 +7,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /Test Library Next App/i })
+      screen.getByRole('heading', { name: /Global Style Configured!/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()

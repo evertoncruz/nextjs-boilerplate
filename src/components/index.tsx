@@ -1,7 +1,7 @@
 const Main: React.FC = () => {
   return (
     <main>
-      <h1>Test Library Next App</h1>
+      <h1>Global Style Configured!</h1>
     </main>
   )
 }
