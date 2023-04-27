@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
 `
 
 export const Title = styled.h1`
-  font-size: 4rem;
+  font-size: 8rem;
 `
 
 export const Logo = styled.img`
